@@ -20,7 +20,7 @@ public class DeclaracioVariables {
         char qualificacio='A';          //tipo caracter/lletra char
 
         //La classe String per representar cadenes de caracters
-        String cadena="Sóc una cadena de caracters!!";
-
+        String cadena=new String("Sóc una cadena de caracters!!");
+        cadena="La mateixa cadena sense el new";
     }
 }
