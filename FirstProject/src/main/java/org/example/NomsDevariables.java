@@ -14,7 +14,22 @@ public class NomsDevariables {
         final int NUMERO2=25;  //nom de constant correcte
 
         NUMERO=3.0F;    //sembla una constant però no ho és ja que li puc canviar el valor
-        NUMERO2=34;     //és una constant ja que no li puc canviar el valor
+        //NUMERO2=34;     //és una constant ja que no li puc canviar el valor
+
+
+
+    }
+
+    void altreMetode(){
+        {
+            int i=0;
+            IO.println(i);
+        }
+        //IO.println(i);
+        {
+            int i=10;
+            IO.println(i);
+        }
     }
 
 

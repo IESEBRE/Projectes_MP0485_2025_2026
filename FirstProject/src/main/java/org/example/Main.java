@@ -13,5 +13,9 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             IO.println("i = " + i);
         }
+
+        int x = 5;
+        int y = --x + x--;
+        System.out.println(y);
     }
 }
