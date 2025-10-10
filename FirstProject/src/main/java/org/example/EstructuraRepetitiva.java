@@ -55,6 +55,17 @@ public class EstructuraRepetitiva {
 
 
         //Bucle que mostra un número introduit pel teclat i no para fins llegir el 0
+        numero=1;               //inicialitzem la variable de control en qualsevol valor excepte el 0
+        numero=Integer.parseInt(IO.readln("Introduix un número (0 per acabar):\n"));
+        if(numero!=0) IO.println("Has introduit el "+numero);
+        while(numero!=0){       //Usem while perquè volem iterar d'0 a n vegades
+            numero=Integer.parseInt(IO.readln("Introduix un número (0 per acabar):\n"));
+            if(numero!=0) IO.println("Has introduit el "+numero);
+        }
+        IO.println("Has sortit del bucle");
+
+
+
 
     }
 
