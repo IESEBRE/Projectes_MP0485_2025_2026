@@ -30,10 +30,10 @@ public class Exercici5 {
             }
 
             //Calculem la mitjana
-            mitjana=(double)suma/quantitat;
+            mitjana=(double) suma/quantitat;  // suma*1.0 / quantitat*1.0
 
             //Recorrem de nou el vector i mostrem els majors o iguals que la mitjana
-            IO.println(String.format("Els valors majors o iguals que %f són:", mitjana));
+            IO.println(String.format("Els valors majors o iguals que %.2f són:", mitjana));
             for (int i = 0; i < vector.length; i++) {
                 if(vector[i] >= mitjana) IO.println(vector[i]);
             }
