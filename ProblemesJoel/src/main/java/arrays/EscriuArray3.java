@@ -17,7 +17,7 @@ public class EscriuArray3 {
             if(i!=liniaCurta.length-1) IO.print(", ");
         }
         IO.println("]");
-        //IO.println(Arrays.toString(liniaCurta));
+        IO.println(Arrays.toString(liniaCurta));
 
         //3. Llegim la posició i la mostrem
         IO.println(liniaCurta[Integer.parseInt(IO.readln())]);

@@ -40,7 +40,7 @@ public class Exercici1MilloratIndexOf {
             int resultat=text.indexOf(caracter,index);
             if (resultat==-1) break;
             compt++;                    //incrementem sense mirar cap condició
-            index=resultat+1;
+            index=resultat+1;           //important actualitzar l'índex a la ultima posició trobada més 1, sinó tindrem un bucle infinit
         }while(true);
 
         //Mostrem el missatge demanat
