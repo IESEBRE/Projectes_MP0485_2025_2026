@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.iesebre.mp0485","c":"Metodes","l":"Metodes()","u":"%3Cinit%3E()","k":"3"},{"p":"com.iesebre.mp0485","c":"Metodes","l":"retornaCaracter()","k":"6"},{"p":"com.iesebre.mp0485","c":"Metodes","l":"retornaCaracter(char, char)","u":"retornaCaracter(char,char)","k":"6"}];updateSearchResults();
