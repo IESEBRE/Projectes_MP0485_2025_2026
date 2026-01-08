@@ -15,6 +15,7 @@ public class Main {
         int num=0;
         ent.close();
 
+
         do{
             System.out.println("Escriu un enter entre 1 i 5:");
 

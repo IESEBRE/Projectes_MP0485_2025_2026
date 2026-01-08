@@ -8,8 +8,11 @@ public class ExcepcioIV {
 
 
     static void main() {
+
+
         Scanner ent=new Scanner(in);
         try{
+            metode();
             switch(ent.nextInt()){
                 case 0:
                     //Genero una excepció inventada
@@ -23,6 +26,10 @@ public class ExcepcioIV {
             System.out.println("Sortim del tractament d'excepcions");
         }
 
+    }
 
+
+    public static void metode(){
+        throw new NullPointerException();
     }
 }
