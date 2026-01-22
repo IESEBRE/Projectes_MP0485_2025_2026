@@ -1,6 +1,6 @@
 package directaccessfile;
 
-import com.iesebre.usefulcode.DirectAccessFile;
+import com.iesebre.code.DirectAccessFile;
 
 import java.io.IOException;
 import java.io.Serializable;
