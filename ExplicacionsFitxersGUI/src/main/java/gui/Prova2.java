@@ -23,13 +23,18 @@ public class Prova2 extends JFrame{
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
-        panel = new JPanel(new BorderLayout());
+        //panel = new JPanel(new BorderLayout());
+        JPanel panel1 = new Principal().getPanel();
+        panel1.setLayout(new BorderLayout());
+
+        panel=new JPanel(new BorderLayout());
+        panel.add(panel1, BorderLayout.CENTER);
         fondo = new BackgroundPanel();
         fondo.setVisible(true);
         panel.setPreferredSize(new Dimension(600, 400));
         fondo.setPreferredSize(new Dimension(600, 400));
 
-        panel.add(fondo, BorderLayout.CENTER);
+        panel.add(fondo, BorderLayout.PAGE_END);
 
         this.setContentPane(panel);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

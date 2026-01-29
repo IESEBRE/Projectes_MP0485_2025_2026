@@ -21,7 +21,7 @@ public class Principal extends JFrame{
         JPanel p=panel;
         this.setContentPane(p);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setVisible(true);
+        //this.setVisible(true);
         this.pack();
 
 
@@ -38,5 +38,9 @@ public class Principal extends JFrame{
                 new Principal();
             }
         });
+    }
+
+    public JPanel getPanel(){
+        return panel;
     }
 }

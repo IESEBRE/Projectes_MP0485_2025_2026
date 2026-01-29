@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.Prova3">
+  <grid id="27dc6" binding="panel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="5b709" class="javax.swing.JLabel" binding="fondo">
+        <constraints/>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="61db6" class="javax.swing.JLabel" binding="text">
+        <constraints/>
+        <properties>
+          <text value="Here is a button"/>
+        </properties>
+      </component>
+      <component id="3e1c" class="javax.swing.JButton" binding="iMAButton">
+        <constraints/>
+        <properties>
+          <text value="I'm a Button"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
