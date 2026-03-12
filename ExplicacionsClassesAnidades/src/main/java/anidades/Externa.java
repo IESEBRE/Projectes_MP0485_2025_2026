@@ -9,14 +9,20 @@ public class Externa {
 
     //Classes anidades
     static class AnidadaEstatica{
-
+        private int numero;
         //Propietats, constructors, mètodes, ....
+        void prova(){
+            //les classes estàtiques NO tenen accés als membres de la classe contenedora --> Externa
+        }
     }
 
     protected class AnidadaNoEstatica{      //inner classes
-
+        private int numero;
         //Propietats, constructors, mètodes, ....
-
+        void prova(){
+            //les classes NO estàtiques SÍ tenen accés als membres de la classe contenedora --> Externa
+            numero=34;      //de qui és esta propietat?
+        }
     }
 
 }
