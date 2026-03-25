@@ -3,12 +3,41 @@ package comparacio;
 
 public class Cotxe implements Comparable<Cotxe>{
 
-    String marca;
-    String model;
-    int anyFabricacio;
+    private String marca="";
+    private String model="";
+    private int anyFabricacio=1900;
 
 
     public Cotxe(int anyFabricacio) {
+        this.anyFabricacio = anyFabricacio;
+
+    }
+
+    public Cotxe(String marca) {
+        this.marca = marca;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getAnyFabricacio() {
+        return anyFabricacio;
+    }
+
+    public void setAnyFabricacio(int anyFabricacio) {
         this.anyFabricacio = anyFabricacio;
     }
 
@@ -18,7 +47,6 @@ public class Cotxe implements Comparable<Cotxe>{
     }
 
     //Obligatori sobreescriure el mètode equals, per fer-lo consistent en compareTo
-
     @Override
     public boolean equals(Object obj) {
         Cotxe temp=(Cotxe) obj;
